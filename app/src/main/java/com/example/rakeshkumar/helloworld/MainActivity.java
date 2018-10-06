@@ -14,6 +14,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        System.out.print("Start Added for Stash");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        System.out.print("On Resume");
     }
 
     @Override
